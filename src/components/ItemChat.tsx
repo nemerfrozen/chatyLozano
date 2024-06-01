@@ -1,6 +1,3 @@
-import React from "react";
-
-
 const ItemChat = ({ content, role }: Message) => {  
   return (
     <a className="list-group-item list-group-item-action active text-white rounded-0">

@@ -1,5 +1,3 @@
-import React from 'react'
-
 interface SearchInputProps {
   submit: (e: any) => void
 }
