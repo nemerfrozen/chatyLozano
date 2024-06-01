@@ -9,7 +9,7 @@ const openai = new OpenAI(
   
 
 async function openAI(messages: any): Promise<Message> {
-  const completion: ResponseOpenAI = await openai.chat.completions.create({
+  const completion: any = await openai.chat.completions.create({
     messages,
     model: "gpt-3.5-turbo",
   });
