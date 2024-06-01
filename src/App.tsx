@@ -20,7 +20,8 @@ function App() {
     ];
     // push data to state
     const messageData = [...data, messages[0]];
-    setdata(messageData);    
+    setdata(messageData);
+    textInput.value = "";    
     const response: Message = await openAI(messages);    
     const newData = [...messageData, response];
     setdata(newData);
